@@ -21,29 +21,30 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/buttonClear31"
+                android:id="@+id/buttonDegree"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
-                android:text="C"
+                android:text="^"
                 android:textSize="30dp" />
 
             <Button
-                android:id="@+id/buttonClear32"
+                android:id="@+id/buttonPercent"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
+                android:text="%"
                 android:textSize="30dp" />
 
             <Button
-                android:id="@+id/buttonClear33"
+                android:id="@+id/buttonDivision"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
-                android:text="C"
+                android:text="÷"
                 android:textSize="30dp" />
 
             <Button
@@ -52,7 +53,7 @@
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
-                android:text="C"
+                android:text="D"
                 android:textSize="30dp" />
 
             <Button
@@ -71,12 +72,48 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/buttonClear27"
+                android:id="@+id/buttoSqrt"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
-                android:text="C"
+                android:text="√"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="7"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="8"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="9"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonMult"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="*"
                 android:textSize="30dp" />
         </TableRow>
 
@@ -85,12 +122,48 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/buttonClear28"
+                android:id="@+id/buttonPi"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
-                android:text="C"
+                android:text="Pi"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="4"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="5"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="6"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="-"
                 android:textSize="30dp" />
         </TableRow>
 
@@ -99,12 +172,48 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/buttonClear29"
+                android:id="@+id/buttonFactual"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
-                android:text="C"
+                android:text="!"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="2"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="3"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonPlus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="+"
                 android:textSize="30dp" />
         </TableRow>
 
@@ -113,12 +222,48 @@
             android:layout_height="85dp">
 
             <Button
-                android:id="@+id/buttonClear30"
+                android:id="@+id/buttonDi"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="1dp"
                 android:background="@drawable/roundedbutton"
-                android:text="C"
+                android:text="^(-1)"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/buttoEx"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="е"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/butto0"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttoPoint"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="."
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonEqually"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="="
                 android:textSize="30dp" />
         </TableRow>
     </TableLayout>
