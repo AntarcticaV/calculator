@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backG"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="416dp"
+        android:layout_height="417dp"
+        android:background="@color/backTablet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonClear31"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonClear32"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonClear33"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonClear34"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonClear27"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonClear28"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonClear29"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="85dp">
+
+            <Button
+                android:id="@+id/buttonClear30"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/roundedbutton"
+                android:text="C"
+                android:textSize="30dp" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="407dp"
+        android:layout_height="245dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
